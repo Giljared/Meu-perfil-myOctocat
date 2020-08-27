@@ -6,7 +6,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
 }
 
 body {
@@ -31,6 +32,12 @@ ul li {
     box-sizing: border-box ;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    color: rgb(20, 17, 17);
+    
+}
+
+li:hover{
+    font-weight: bold;
 }
 /*conteudo*/
 
@@ -41,6 +48,7 @@ ul li {
     align-items: center;
     background-color: #7E459B;
     text-decoration-color: black;
+    
 
 }
 .nav__lista {
@@ -142,4 +150,36 @@ img {
 
 
 
+.sessao__contato{
+    background-color: rgb(70, 118, 139);
+    text-align: center;
+    color: rgb(59, 19, 99);
+    padding: 10px 10px 10px;
+
+    display: block;
+    font-size: 1.2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 1.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.boton input{
+    background-color: rgb(167, 74, 196);
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 20%;
+    border: 1px solid;
+    cursor: pointer;
+}
+textarea{
+    width: 470px;
+    height: 120px;
+    line-height: 20px;
+}
 
